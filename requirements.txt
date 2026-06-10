@@ -1,0 +1,23 @@
+# PDF Parsing
+pdfplumber==0.11.4
+
+# Embeddings (open-source, no API key needed)
+sentence-transformers==3.3.1
+
+# OCR — for image-based pages (charts, diagrams, infographics)
+pdf2image==1.17.0       # rasterizes PDF pages via poppler
+pytesseract==0.3.13     # Python wrapper for Tesseract OCR engine
+
+# Vector Database
+pinecone==5.4.2
+
+# LLM
+groq==0.13.1
+
+# API
+flask==3.1.0
+flask-cors==5.0.0
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.67.1
